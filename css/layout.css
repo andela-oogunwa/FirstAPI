@@ -57,15 +57,16 @@ img {
   padding-bottom : 500px;
   padding-right: 200px;
   overflow: scroll;
-  height:100px;
+  height:50px;
+  width: 80px;
 }
  
 #error {
   height: 50px;
   width: 200px;
   background-color: #003171;
-  position: absolute;
-  margin-right: 250px;
+  position: relative;
+  margin: 0 auto;
   display: none;
   border-radius: 10px;
 }

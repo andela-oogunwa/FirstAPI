@@ -28,7 +28,6 @@ var githubCheck = {
     $('#repos').html('');
     $('#error').hide();
     $.getJSON(this.toSearch+"/users/"+username, function (response) {
-      // console.log(response);
       var avatar = response.avatar_url,
           followers = "<li>Followers: "+response.followers+"</li>",
           following = "<li>Following: "+response.following+"</li>",
